@@ -1,2 +1,2 @@
 # 23su
-Сайт на 23 СУ, София, България
+The website of 23 SU, Sofia, Bulgaria
