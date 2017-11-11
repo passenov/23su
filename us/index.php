@@ -47,7 +47,6 @@
 <title><?=$title?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="icon" type="image/gif" href="favicon.ico" />
-<link rel="stylesheet" href="en-us23su.css" />
 <link rel="stylesheet" type="text/css" href="us23su.css">
 <script>
 //var lang = localStorage.getItem('lang') || 'bg';
@@ -62,7 +61,7 @@
   <nav id="nav">
 <?php	if($lang == 'en') { ?>
     <a href="#">HOME</a>
-    <a href="about.php">ABOUT US</a>
+    <a href="#about-us">ABOUT US</a>
     <a href="#rules">RULES</a>
     <a href="#events">EVENTS</a>
     <a href="#contacts">CONTACTS</a>
@@ -70,7 +69,7 @@
     <a style="width: auto; padding-left: 10px; padding-right: 10px" href="<?=$link?>">BG</a>
 <?php	} else { ?>
     <a href="#">НАЧАЛО</a>
-    <a href="about.php">ЗА НАС</a>
+    <a href="#about-us">ЗА НАС</a>
     <a href="#rules">УСТАВ</a>
     <a href="#events">СЪБИТИЯ</a>
     <a href="#contacts">КОНТАКТИ</a>
@@ -126,7 +125,7 @@
 
   <h1>УЧЕНИЧЕСКИ СЪВЕТ НА 23-ТО СУ</h1>
   <aside>
-    <img src="us-pic.png" class="us-pic">
+    <!-- <img src="us-pic.png" class="us-pic"> -->
   </aside>
 <section class="about-us" onmouseover="slide.pause()" onmouseout="slide.resume()">
 <div id="about-us" class="space-section"></div>
@@ -250,10 +249,10 @@
 	  <h2>Контролна комисия</h2>
 	  <p>Контролната комисия има за цел да контролира и наблюдава дейността на управителния съвет и всички останали комисии към УС.</p>
 	  <article>
-	    <h3>Георги Банов</h3>
+	    <h3 class="proba">Георги Банов</h3>
       <img src="ch1.jpg">
 	  </article>
-	  <article>
+	  <article class="mid-resp-pic">
 	    <h3>Елеонора Симова</h3>
       <img src="ch2.jpg">
 	  </article>

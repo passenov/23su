@@ -31,8 +31,7 @@ em { margin:15px 0; font-size:18px; }
 article > h3:first-child, article > p:first-child { margin:10px 0; padding:0px; }
 .about-us h1 { font-size:25px; }
 section.directory article, section.chairmen article, section.events article 	{
-margin:0px auto 50px; background: rgba(237,237,237,1);
-background: linear-gradient(to bottom, rgba(237,237,237,1) 0%, rgba(217,217,217,1) 23%, rgba(237,237,237,1) 50%, rgba(217,217,217,1) 73%, rgba(227,227,227,1) 88%, rgba(227,227,227,1) 100%);
+margin:0px auto 50px; 
 border-radius:5%; max-width:200px; }
 .directory img { width:150px; }
 .chairmen img { border-radius:50%; width:80px;  float:left; }
